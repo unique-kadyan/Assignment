@@ -45,7 +45,7 @@ var count = 0;
 let addTask = function () {
 	console.log("Add Task...");
     count = count + 1;;
-    document.getElementById("countNum").innerHTML = count;
+    document.getElementById("countNum").innerHTML = count-1;
 	let listItem = createNewTaskElement(taskInput.value);
 
 	if (taskInput.value == "") {
